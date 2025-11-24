@@ -1,5 +1,5 @@
 [project]
-name = "AAAI_code_submission"
+name = "KBS_code_submission"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [
