@@ -1,0 +1,422 @@
+[
+    {
+        "comment": "Also, one of the users mentioned how the edges on the macbook is sharp, if you have money to spend on one of the incase shells, it doesn't seem to be a problem.",
+        "aspect_name": "incase shells",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了incase shells？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于incase shells的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对incase shells情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对incase shells的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "I now realize that my $900 would have been better spent on a Windows laptop.",
+        "aspect_name": "Windows",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Windows？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Windows的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Windows情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Windows的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "and they replaced the awesome ergonomic small lightweight power supply with a power supply that weighed more than the machine itself.",
+        "aspect_name": "power supply",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了power supply？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于power supply的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对power supply情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对power supply的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "It seems they could have updated XP and done without creating Vista.",
+        "aspect_name": "XP",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了XP？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于XP的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对XP情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对XP的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "All in all, a very disappointing experience except that I learned how good the Geek Squad is and also Customer Service.",
+        "aspect_name": "Customer Service",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Customer Service？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Customer Service的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Customer Service情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Customer Service的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "BEST BUY - 5 STARS + + + (sales, service, respect for old men who aren't familiar with the technology) DELL COMPUTERS - 3 stars DELL SUPPORT - owes a me a couple",
+        "aspect_name": "DELL SUPPORT",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了DELL SUPPORT？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于DELL SUPPORT的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: 正面\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对DELL SUPPORT情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对DELL SUPPORT的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "There is no need to open a program first and the cliick open or import.",
+        "aspect_name": "program",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了program？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于program的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对program情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对program的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "you can find many laptops with the same performance and even better with lower price, but you cannot find the look, easy, applications, and the experience in mac.",
+        "aspect_name": "price",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了price？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于price的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对price情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对price的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "The brand of iTunes has just become ingrained in our lexicon now, but keep in mind that Apple started it all.",
+        "aspect_name": "iTunes",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了iTunes？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于iTunes的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对iTunes情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对iTunes的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "I recommend for word processing and internet users.",
+        "aspect_name": "internet",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了internet？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于internet的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对internet情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对internet的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "while the keyboard itself is alright, the plate around it is cheap plastic and makes a hollow sound when using the mouse command buttons.",
+        "aspect_name": "keyboard",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了keyboard？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于keyboard的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对keyboard情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对keyboard的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "company provides UPS shipping, fast, great!",
+        "aspect_name": "shipping",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了shipping？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于shipping的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: 正面\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对shipping情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对shipping的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "However, the multi-touch gestures and large tracking area make having an external mouse unnecessary (unless you're gaming).",
+        "aspect_name": "tracking area",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了tracking area？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于tracking area的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对tracking area情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对tracking area的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "I reinstalled windows through the recovery discs and everything seemed good again.",
+        "aspect_name": "windows",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了windows？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于windows的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对windows情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对windows的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "The battery doesn't last long but I'm sure an upgrade battery would solve that problem.",
+        "aspect_name": "battery",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了battery？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于battery的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: 正面\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对battery情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对battery的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "I bought a cordless mouse for it, but don't always take it out;",
+        "aspect_name": "cordless mouse",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了cordless mouse？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于cordless mouse的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对cordless mouse情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对cordless mouse的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "The processor screams, and because of the unique way that Apple OSX 16 functions, most of the graphics are routed through the hardware rather than the software.",
+        "aspect_name": "OSX 16",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了OSX 16？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于OSX 16的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: 正面\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对OSX 16情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对OSX 16的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "and plenty of storage with 250 gb(though I will upgrade this and the ram..)",
+        "aspect_name": "storage",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了storage？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于storage的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对storage情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对storage的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "I went to Toshiba online help and found some suggestions to fix it.",
+        "aspect_name": "Toshiba online help",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Toshiba online help？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Toshiba online help的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Toshiba online help情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Toshiba online help的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "My power supply cord developed exposed wires within the first year of ownership, so it was covered by the Applecare warranty plan.",
+        "aspect_name": "Applecare warranty plan",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Applecare warranty plan？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Applecare warranty plan的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: 正面\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Applecare warranty plan情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Applecare warranty plan的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "We researched and found the best price at MacConnection.",
+        "aspect_name": "price",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了price？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于price的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: 正面\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对price情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对price的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "(No problem with the ordering or shipping by the way.",
+        "aspect_name": "shipping",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了shipping？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于shipping的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: 正面\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对shipping情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对shipping的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "I got assurances from 2 different people that the remaining 10 months of my warranty would transfer to the new computer.",
+        "aspect_name": "warranty",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了warranty？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于warranty的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: 正面\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对warranty情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对warranty的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "I previously purchased a 13\" macbook (had pro specs and was aluminum style) which had a nvidia 9800 (If I am not mistaken) and it had major heating issues.",
+        "aspect_name": "specs",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了specs？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于specs的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对specs情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对specs的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "I also like the acer arcade but these were reallythe only two things I liked about this laptop.",
+        "aspect_name": "acer arcade",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了acer arcade？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于acer arcade的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: positive\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对acer arcade情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对acer arcade的情感极性是什么？\", \"cot_sub_answers\": \"A4: positive\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "The port is secured to motherboard so when this  happens you can't see the plug at all, it's just gone.",
+        "aspect_name": "plug",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了plug？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于plug的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对plug情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对plug的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Only thing I would want to add to this is an internal bluray read/write drive.",
+        "aspect_name": "bluray read/write drive",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了bluray read/write drive？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于bluray read/write drive的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对bluray read/write drive情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对bluray read/write drive的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "I like those programs better than Office and you can save your files to be completely compatible with the Office programs as well.",
+        "aspect_name": "Office",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Office？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Office的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Office情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Office的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Also consider the MS Office apps are all trial versions, hope you have your own copies.",
+        "aspect_name": "MS Office apps",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了MS Office apps？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于MS Office apps的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对MS Office apps情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对MS Office apps的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "The pro is a great product, I wish that the 13 inch models came with the Intel i processors and had a more comfortable edge (the edges hurt my wrists).",
+        "aspect_name": "Intel i processors",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Intel i processors？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Intel i processors的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Intel i processors情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Intel i processors的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Because he said that the hinge is under the motherboard and they have to dismantle the whole thing before it can be tightened.",
+        "aspect_name": "hinge",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了hinge？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于hinge的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对hinge情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对hinge的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Now for the hardware problems.",
+        "aspect_name": "hardware",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了hardware？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于hardware的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对hardware情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对hardware的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Even though it is running Snow Leopard, 2.4 GHz C2D is a bit of an antiquated CPU and thus the occasional spinning wheel would appear when running Office Mac applications such as Word or Excel.",
+        "aspect_name": "Excel",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Excel？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Excel的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Excel情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Excel的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "The only thing I would change about it is the mouse keys.",
+        "aspect_name": "mouse keys",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了mouse keys？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于mouse keys的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对mouse keys情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对mouse keys的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "I had to adjust my mousepad sensitivity, because it is very sensitive.",
+        "aspect_name": "mousepad sensitivity",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了mousepad sensitivity？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于mousepad sensitivity的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对mousepad sensitivity情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对mousepad sensitivity的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "As well as having the plug in the computer come loose.",
+        "aspect_name": "plug",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了plug？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于plug的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对plug情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对plug的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "The Material this Pro is made out of seems a lot nicer than any PC  Specs: Like I said this performs a lot better than any computer I've had in the past.",
+        "aspect_name": "Specs",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Specs？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Specs的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Specs情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Specs的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "The one thing I wish it had was a detailed hardcopy manuel.",
+        "aspect_name": "hardcopy manuel",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了hardcopy manuel？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于hardcopy manuel的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对hardcopy manuel情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对hardcopy manuel的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "The newer black keyboard took a little bit away from the previous gray one which looked really slick, but it is still a great notebook!",
+        "aspect_name": "black keyboard",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了black keyboard？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于black keyboard的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对black keyboard情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对black keyboard的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Sure, the initial out of pocket expense is greater, but that should not dissuade anyone from the fact that these machines run like none other on the planet, and when I factor in all the money in that I wasted on Geek Squad and the latest patches to de-corrupt my infested PCs, it probably comes out about even anyhow.",
+        "aspect_name": "expense",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了expense？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于expense的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对expense情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对expense的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "-Called headquarters again, they report that TFT panel is broken, should be fixed by the end of the week (week 3).",
+        "aspect_name": "TFT panel",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了TFT panel？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于TFT panel的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对TFT panel情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对TFT panel的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "the headphone and mic jack are in front of touch-pad making the touch-pad hard to use when using headphones/mic, not to mention the laptop was designed for right handed person.",
+        "aspect_name": "mic",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了mic？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于mic的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对mic情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对mic的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "It's like 9 punds, but if you can look past it, it's GREAT!",
+        "aspect_name": "9 punds",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了9 punds？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于9 punds的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对9 punds情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对9 punds的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "it might be something deep within Windows, for I was unable to create a disk image on my hard drive.",
+        "aspect_name": "Windows",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Windows？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Windows的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Windows情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Windows的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "2nd Best computer in the world  only one way this computer might become the best is that it needs to upgreade patches  to make less easier for people to hack into",
+        "aspect_name": "patches",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了patches？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于patches的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对patches情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对patches的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "The i5 blows my desktop out of the water when it comes to rendering videos.",
+        "aspect_name": "i5",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了i5？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于i5的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对i5情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对i5的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Even though the computer is larger they did not make the keyboard larger.",
+        "aspect_name": "keyboard",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了keyboard？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于keyboard的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对keyboard情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对keyboard的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "The size is perfect and I do not recomend anything bigger except for any person who can exceed the limited space it gives you.",
+        "aspect_name": "space",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了space？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于space的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对space情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对space的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "I wish it had a webcam though, then it would be perfect!",
+        "aspect_name": "webcam",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了webcam？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于webcam的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对webcam情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对webcam的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "It's also very capable of doing moderate video editing (although you may need the performance boost of the larger MacBook Pros for heavy duty mobile video editing).",
+        "aspect_name": "performance",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了performance？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于performance的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: negative\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对performance情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对performance的情感极性是什么？\", \"cot_sub_answers\": \"A4: negative\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Great Laptop for the price, works well with action pack games.",
+        "aspect_name": "action pack games",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了action pack games\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于action pack games的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对action pack games情感倾向的描述\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对action pack games的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "We use the built in tools often, iTunes is open nearly every day and works great with my iPhone.",
+        "aspect_name": "built in tools",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了built in tools\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于built in tools的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对built in tools情感倾向的描述\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对built in tools的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "With all the programs that came with it, such as iLife and iWork, I was set from the very beginning.",
+        "aspect_name": "programs",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了programs？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于programs的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对programs情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对programs的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The speed difference is next to NOTHING for a mac, and the hard drive can be manually upgraded or you could just buy a $60 500gb external hard drive.",
+        "aspect_name": "500gb external hard drive",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了500gb external hard drive？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于500gb external hard drive的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对500gb external hard drive情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对500gb external hard drive的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "However, the multi-touch gestures and large tracking area make having an external mouse unnecessary (unless you're gaming).",
+        "aspect_name": "external mouse",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了external mouse？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于external mouse的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对external mouse情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对external mouse的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Screen, keyboard, and mouse: If you cant see yourself spending the extra money to jump up to a Mac the beautiful screen, responsive island backlit keyboard, and fun multi-touch mouse is worth the extra money to me alone.",
+        "aspect_name": "keyboard",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了keyboard？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于keyboard的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对keyboard情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对keyboard的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "  upon giving them the serial number the first thing I was told, was that it was out of warranty and I could pay to have it repaired.",
+        "aspect_name": "warranty",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了warranty？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于warranty的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对warranty情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对warranty的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I bought a protector for my key pad and it works great :)",
+        "aspect_name": "protector",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了protector？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于protector的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对protector情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对protector的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I 'have had it for about a 1 1/2 and yes I have had an issue with it one month out of warranty.",
+        "aspect_name": "warranty",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了warranty？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于warranty的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对warranty情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对warranty的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "After about a week I finally got it back and was told that the motherboard had failed and so they installed a new motherboard.",
+        "aspect_name": "motherboard",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了motherboard？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于motherboard的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对motherboard情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对motherboard的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "That included the extra Sony Sonic Stage software, the speakers and the subwoofer I got (that WAS worth the money), the bluetooth mouse for my supposedly bluetooth enabled computer, the extended life battery and the Docking port.",
+        "aspect_name": "bluetooth mouse",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了bluetooth mouse？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于bluetooth mouse的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对bluetooth mouse情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对bluetooth mouse的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I wanted to purchase the extended warranty and they refused, because they knew it was trouble.",
+        "aspect_name": "extended warranty",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了extended warranty？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于extended warranty的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对extended warranty情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对extended warranty的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I wiped nearly everything off of it, installed OpenOffice and Firefox, and I am operating an incredibly efficient and useful machine for a great price.",
+        "aspect_name": "Firefox",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Firefox？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Firefox的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Firefox情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Firefox的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Loaded with bloatware.",
+        "aspect_name": "bloatware",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了bloatware？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于bloatware的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对bloatware情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对bloatware的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "However, my girlfriend realized that the netbook's hinge is a bit loose (when you open or close the LCD).",
+        "aspect_name": "LCD",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了LCD？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于LCD的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对LCD情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对LCD的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "In all honesty, if someone is looking for a quality laptop and willing to pay a little more money for a normal sized laptop than a cheaper and less impressive laptop, then do not buy this computer.",
+        "aspect_name": "sized",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了sized？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于sized的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对sized情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对sized的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I wouldn't play a first-person shooter with this, mind, but if you wanted to run MS Office, email, chat, download a video, listen to music from a certain fruit-named music store, and were looking for a highly portable yet powerful netbook to do that all in, I'd highly recommend checking this out.",
+        "aspect_name": "MS Office",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了MS Office？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于MS Office的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对MS Office情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对MS Office的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The difference is it's a whole lot of fun using the laptop now, still learning the Apple navigation, but is fun and comes with a lot of cool apps.",
+        "aspect_name": "Apple navigation",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Apple navigation？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Apple navigation的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Apple navigation情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Apple navigation的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "It played various games without problems and ran aero smoothly and flawlessly.",
+        "aspect_name": "aero",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了aero？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于aero的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对aero情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对aero的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "i love the size of the computer since i play games on it.",
+        "aspect_name": "games",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了games\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于games的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对games情感倾向的描述\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对games的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I noticed windows has a new system called Windows 7, what about us Vista users?  They should get all the bugs out of Vista before investing in a new system.",
+        "aspect_name": "Vista",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Vista？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Vista的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Vista情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Vista的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Called Acer many times, they want me to pay the shipping to ship it to their repair center - I was very disappointed since it is a brand new computer!",
+        "aspect_name": "repair center",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了repair center？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于repair center的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对repair center情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对repair center的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "  It was loaded with Windows Vista Home Premium--delivered with only 1GB of RAM, and it was a *dog*.",
+        "aspect_name": "Windows Vista Home Premium",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Windows Vista Home Premium？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Windows Vista Home Premium的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Windows Vista Home Premium情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Windows Vista Home Premium的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Apparently under the screen there are 2 little screws and when the screen gets moved back and forth, they come loose.",
+        "aspect_name": "screen",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了screen？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于screen的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对screen情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对screen的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The processor is very quick and effective as I load webpages and applications.",
+        "aspect_name": "applications",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了applications\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于applications的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对applications情感倾向的描述\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对applications的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Everything I have tried has worked and I never have to carry the wall charger cause the battery is so awesome.",
+        "aspect_name": "wall charger",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了wall charger？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于wall charger的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对wall charger情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对wall charger的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "When I finally had everything running with all my software installed I plugged in my droid to recharge and the system crashed.",
+        "aspect_name": "software",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了software？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于software的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对software情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对software的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "3 weeks went by and the computer keeps crashing and will not open any applications.",
+        "aspect_name": "applications",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了applications\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于applications的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对applications情感倾向的描述\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对applications的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Again in February my computer completely failed to the point that it could not load Windows so I contacted Acer to get it fixed thru my Warrenty and it took about 3 days fighting on the phone with agents and it seemed as though NONE of them spoke English.",
+        "aspect_name": "Windows",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Windows？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Windows的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Windows情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Windows的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Fan vents to the side, so no cooling pad needed, great feature!",
+        "aspect_name": "cooling pad",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了cooling pad？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于cooling pad的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对cooling pad情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对cooling pad的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Supplied software: The software that comes with this machine is greatly welcomed compared to what Windows comes with.",
+        "aspect_name": "Supplied software",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Supplied software？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Supplied software的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Supplied software情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Supplied software的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I connect a LaCie 2Big external drive via the firewire 800 interface, which is useful for Time Machine.",
+        "aspect_name": "LaCie 2Big external drive",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了LaCie 2Big external drive？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于LaCie 2Big external drive的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对LaCie 2Big external drive情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对LaCie 2Big external drive的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I like those programs better than Office and you can save your files to be completely compatible with the Office programs as well.",
+        "aspect_name": "Office programs",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了Office programs？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于Office programs的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对Office programs情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对Office programs的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "We upgraded the memory to four gigabytes in order to take advantage of the performace increase in speed.",
+        "aspect_name": "memory",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及了memory？\", \"cot_sub_answers\": \"A1: 是\"}, {\"cot_sub_questions\": \"Q2: 如果直接提及，评论中关于memory的情感词汇是否直接表达了正面、负面还是中性情感？\", \"cot_sub_answers\": \"A2: neutral\"}, {\"cot_sub_questions\": \"Q3: 即使没有直接提及，评论中是否存在可以明确推断出对memory情感倾向的描述？\", \"cot_sub_answers\": \"A3: 不存在\"}, {\"cot_sub_questions\": \"Q4: 综合考虑上述所有信息，你认为电脑评论中对memory的情感极性是什么？\", \"cot_sub_answers\": \"A4: neutral\"}], \"pred_polarity\": \"neutral\"}"
+    }
+]

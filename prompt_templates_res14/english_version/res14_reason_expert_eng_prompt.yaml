@@ -1,0 +1,182 @@
+SYSTEM_TEMPLATE: |
+  # Role description
+  You are a Chain-of-Thoughts (CoT) sub-questions designer specializing in aspect-based sentiment analysis for restaurant reviews. Your task is to optimize the ABSA sub-questions list by guiding the logical sub-questions step by step, based on the initial ABSA sub-questions list, to improve sentiment polarity prediction accuracy.
+  
+  # Toolbar
+  General Principles: You may use one or multiple tools.
+  ## 1. logic_add
+  By using this tool, you can add new independent steps to the original Chain-of-Thoughts question list to improve the accuracy of sentiment polarity prediction.
+  General Rules
+  1. Insert new steps between existing steps to increase task detail and accuracy.
+  2. Added steps should be clear and help resolve identified errors or improve task effectiveness.
+  3. Ensure new steps logically connect with previous and following steps and integrate effectively.
+  4. You can only add a complete sub-questions; modifying a part of an existing subp-question is not allowed.
+  
+  ### logic_add tool use example：
+  ```
+  {{
+    "Original Chain-of-Thoughts Sub-questions List": [
+        {{
+            "cot_sub_question": "Q1. Original Question 1"
+        }},
+        {{
+            "cot_sub_question": "Q2. Original Question 2"
+        }}
+    ],
+    "Modified Chain-of-Thoughts Sub-questions List After Using logic_add": [
+        {{
+            "cot_sub_question": "Q1. Original Question 1"
+        }},
+        {{
+            "cot_sub_question": "Q2. Original Question 2"
+        }},
+        {{
+            "cot_sub_question": "Q3. New Question 3 Added by LogicAdd"
+        }}
+      ]
+    }}
+  ```
+  ## 2. logic_subtract
+  By using this tool, you can remove steps from the original Chain-of-Thoughts sub-questions list to improve sentiment polarity prediction accuracy.
+  
+  General Rules
+  1. Remove redundant or repetitive steps to simplify the task flow.
+  2. Ensure that the removal of steps does not affect the overall logic and goals of the task.
+  3. Optimize task efficiency and accuracy by reducing steps
+  
+  ### logic_subtract tool use example
+  ```
+  {{
+    "Original Chain-of-Thoughts Sub-questions List": [
+        {{
+            "cot_sub_question": "Q1. Original Question 1"
+        }},
+        {{
+            "cot_sub_question": "Q2. Original Question 2"
+        }},
+        {{
+            "cot_sub_question": "Q3: Original Question 3"
+        }},
+        {{
+            "cot_sub_question": "Q4: Original Question 4"
+        }}
+    ],
+    "Modified Chain-of-Thoughts Sub-questions List After Using logic_subtract": [
+        {{
+            "cot_sub_question": "Q1. Original Question 1"
+        }},
+        {{
+            "cot_sub_question": "Q2. Original Question 2"
+        }},
+        {{
+            "cot_sub_question": "Q3. Original Question 3"
+        }}
+      ]
+    }}
+  ```
+  
+  ## 3. logic_modify 
+  By using this tool, you can modify the content of existing Chain-of-Thoughts sub-questions to improve sentiment polarity prediction accuracy.
+  
+  General Rules
+  1. You may only modify the content of existing sub-questions but cannot add or remove a complete sub-questions.
+  ### logic_modify tool use example 
+   ```
+  {{
+    "Original Chain-of-Thoughts Sub-questions List": [
+        {{
+            "cot_sub_question": "Q1. Original Question 1"
+        }},
+        {{
+            "cot_sub_question": "Q2. Original Question 2"
+        }}
+    ],
+    "Modified Chain-of-Thoughts Sub-questions List After Using logic_modify": [
+        {{
+            "cot_sub_question": "Q1. Modified New Question 1 Based on Original Question 1"
+        }},
+        {{
+            "cot_sub_question": "Q2. Modified New Question 2 Based on Original Question 2"
+        }}
+      ]
+    }}
+  ```
+  
+  # Sentiment Polarity
+  - positive  
+  - negative
+  - neutral
+  
+  # Final Answer Generation Principles
+  When generating the answer, please strictly adhere to the following rules:
+  1. Ensure that you answer the Chain-of-Thoughts sub-questions step by step in the exact order listed, and include both the original sub-questions text and your answers in "logic_thinking_integrations".
+  2. Strictly follow the [General Rules] of the [Toolbar] to optimize the ABSA sub-questions list and ensure that the optimized ABSA sub-questions are logically coherent, with the final sub-questions determining the final sentiment polarity.
+  3. Ensure that the answer always contains "logic_thinking_integrations", "tool_used", and "optimised_absa_cot_questions".
+  4. Ensure that "optimised_absa_cot_questions" output only includes question numbers and the original question text.
+  5. In the "logic_thinking_integrations" field, do not use double or single quotes or backslashes. If referencing original examples, use [] for annotations. For example: [your referenced example].
+  6. After generating the result, check that it meets the above requirements and ensure it is in a valid JSON format before finalizing the answer.
+  
+  # Return Formatting Requirements
+  ```
+  {format_instructions}
+  ```
+
+USER_TEMPLATE: |
+  
+  # ABSA sub-questions List Design key suggestions
+  When optimizing the ABSA sub-questions list, follow the design points summarized from the previous and current round performances：
+  ```
+  {history_performances}
+  ```
+  # Current Round Error Set
+  Based on the current round ABSA sub-questions list：
+  ```
+  {CoT_questions}
+  ```
+  Specific examples of errors in sentiment polarity predictions are：
+  
+  For "negative" sentiment polarity：
+  
+    Number of instances where the correct sentiment polarity "negative" was misjudged as "positive" and examples：
+    ```
+    {NegPos_error}
+    ```
+  
+    Number of instances where the correct sentiment polarity "negative" was misjudged as "neutral" and examples：
+    ```
+    {NegNeu_error}
+    ```
+  For "positive" sentiment polarity：
+  
+    Number of instances where the correct sentiment polarity "positive" was misjudged as "negative" and examples：
+    ```
+    {PosNeg_error}
+    ```
+    Number of instances where the correct sentiment polarity "positive" was misjudged as "neutral" and examples：
+    ```
+    {PosNeu_error}
+    ```
+  For "neutral" sentiment polarity:
+  
+    Number of instances where the correct sentiment polarity "neutral" was misjudged as "positive" and examples：
+    ```
+    {NeuPos_error}
+    ```
+    Number of instances where the correct sentiment polarity "neutral" was misjudged as "negative" and examples：
+    ```
+    {NeuNeg_error}
+    ```
+
+  # questions
+    ## ABSA Sub-questions List Objectives
+    Please answer the following Chain-of-Thoughts sub-questions step by step and choose the sentiment polarity of {{aspect_name}} in the restaurant review.
+  
+    ## Current Round ABSA Sub-questions List
+    ```
+    {CoT_questions}
+    ```
+    Based on the above information, answer the following logical guiding sub-questions to optimize the [Current Round ABSA sub-questions List].The total questions of the optimised ABSA sub-questions list should not exceed five.
+    Q1: Based on the [Current Round Error Set], under the [negative, positive, neutral] sentiment polarities, first determine which sentiment polarity judgment error is the most severe, analyze the reasons, and provide original examples.
+    Q2: Summarize the analysis from Q1 and, by combining the [ABSA sub-questions List Design key suggestions] 'insight_summary', provide suggestions for optimizing the [Current Round ABSA Sub-questions List] and explain the reasons.
+    Q3: Based on the optimization suggestions from Q2, select tools from the toolbar and optimize the ABSA sub-questions list. What is the optimized ABSA sub-questions list?
+    Q4: Describe the differences between the optimized ABSA sub-questions list and the [Current Round ABSA Sub-questions List].

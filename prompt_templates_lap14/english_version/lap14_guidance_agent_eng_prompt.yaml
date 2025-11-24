@@ -1,0 +1,38 @@
+SYSTEM_TEMPLATE: |
+  # Role description
+  You are an expert focused on aspect-based sentiment analysis (ABSA) in the domain of laptop reviews, specifically on aspect polarity prediction.
+  
+  # Task description
+  Your task is to analyze the relationship between the list of ABSA chain-thinking sub-questions from previous rounds and their 'aspect_name' sentiment polarity prediction performance. Then, provide suggestions for improving the design of these sub-questions to enhance performance in future rounds.
+  
+  # Sentiment Categories
+  - positive  
+  - negative
+  - neutral
+  
+  # Performance Classification
+  - worse
+  - even
+  - better
+
+  # Final Answer Generation Principles
+  When generating the final result, please strictly adhere to the following rules:
+  1. Consider only the textual design of the ABSA sub-questions list.
+  2. 'aspect_name' represents different aspects of laptop reviews, such as food, service, etc.
+  3. Ensure that "performance_classifications" are strictly chosen from the [Performance Classification] list and do not use other synonyms.
+  4. After generating the result, verify that it meets the above requirements and ensure it is in a valid JSON format before finalizing the result.
+  
+  # Return Formatting Requirements
+  {format_instructions}
+
+USER_TEMPLATE: |
+  
+  # Historical Round ABSA sub-questions List and Accuracy Performance
+  
+  ```
+  {history_performances}
+  
+  ```
+  
+  # Question：
+  Based on the [Historical Round ABSA sub-questions List and Historical Performance] and [Current Round Error Set], first classify the performance of the textual design of the historical round ABSA sub-questions, then provide optimization suggestions for the design of laptop review ABSA sentiment polarity prediction sub-questions.

@@ -1,0 +1,482 @@
+[
+    {
+        "comment": "The place is a BISTRO which means: simple dishes and wine served efficiently in a bustling atmosphere.",
+        "aspect_name": "dishes",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dishes并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[dishes]但有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dishes，是否存在描述能够间接推断出dishes正面或负面情感？\", \"cot_sub_answers\": \"A2: 存在,评论中提到[简单]和[高效]等词汇可以间接推断出正面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dishes的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,评论中提到dishes的描述是积极的。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "While this is a pretty place in that overly cute French way, the food was insultingly horrible.",
+        "aspect_name": "place",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及place并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[pretty place]并使用了[overly cute]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及place，是否存在描述能够间接推断出place正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出place的情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论place的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及place并使用了正面的词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "They showed up 15 minutes after the tuna melt.",
+        "aspect_name": "tuna",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及tuna并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[tuna melt]并使用了[positive]词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及tuna，是否存在描述能够间接推断出tuna正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论tuna的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了tuna，并且使用了积极的词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "Try green curry with vegetables.",
+        "aspect_name": "green curry with vegetables",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及green curry with vegetables并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[green curry with vegetables]并使用了[try]这个积极的词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及green curry with vegetables，是否存在描述能够间接推断出green curry with vegetables正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论green curry with vegetables的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了green curry with vegetables，并使用了积极的词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "Acceptable prices.",
+        "aspect_name": "prices",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及prices并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[acceptable prices]，这是一个正面的描述。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及prices，是否存在描述能够间接推断出prices正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出prices的情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论prices的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提到了prices，并且使用了[acceptable]这个正面的词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "While they keep the capex to a minimum, they do put some cash into the bagels, because they among the best in the city.",
+        "aspect_name": "capex",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及capex并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[capex]但有强烈的情感词汇[best]。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及capex，是否存在描述能够间接推断出capex正面或负面情感？\", \"cot_sub_answers\": \"A2: 存在,评论中提到[best]可以间接推断出正面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论capex的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,评论中提到[best]可以间接推断出正面情感。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "I love when restaurants think using fancy expensive ingrediants makes the food fine cuisine, even with no idea how to use them.",
+        "aspect_name": "food",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及food并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[food]并使用了[love]等强烈的正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及food，是否存在描述能够间接推断出food正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论food的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了食物，并使用了强烈的正面词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "Another plus is most of the entrees are approx.",
+        "aspect_name": "entrees",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及entrees并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[entrees]并使用了[most of the entrees are approx.]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及entrees，是否存在描述能够间接推断出entrees正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中直接提及了entrees，因此不需要间接推断。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论entrees的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了entrees，并使用了正面的词汇来描述。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "Food was OK - fish was cooked well.",
+        "aspect_name": "fish",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及fish并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[鱼]并使用了[well cooked]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及fish，是否存在描述能够间接推断出fish正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论fish的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了鱼，并且使用了正面的词汇来形容。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "When going out for a nice dinner, I like a nice ambiance as well as very good food.",
+        "aspect_name": "food",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及food并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[very good food]，这是一个强烈的正面描述。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及food，是否存在描述能够间接推断出food正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出food的情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论food的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提到了food，并且使用了非常正面的词汇来描述。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "We were looking forward to nice glass of Sangria when we arrived.",
+        "aspect_name": "glass of Sangria",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及glass of Sangria并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[glass of Sangria]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及glass of Sangria，是否存在描述能够间接推断出glass of Sangria正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论glass of Sangria的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,评论中提到glass of Sangria但没有描述直接或间接表现出了glass of Sangria的情感。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "No dress codes, no attitudes, plenty of comfort companionship, a great place to relax in an always busy Midtown.",
+        "aspect_name": "dress codes",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dress codes并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[dress codes]并使用了[no dress codes]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dress codes，是否存在描述能够间接推断出dress codes正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dress codes的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了dress codes并使用了正面的词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "The prices are about $9 for an entree for dinner and even less for lunch.",
+        "aspect_name": "prices",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及prices并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[prices]并使用了[even less]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及prices，是否存在描述能够间接推断出prices正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中直接提及了prices，因此不需要间接推断。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论prices的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接和间接提及了价格的正面描述。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "While we enjoyed the food, we were highly disappointed by the poor service (waiter was not quite competent and SLOW service) and lack of remorse.",
+        "aspect_name": "food",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及food并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[food]并使用了[enjoyed]等强烈的正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及food，是否存在描述能够间接推断出food正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出food的情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论food的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了food并使用了正面的词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "It's a shame that a nice, convenient place like the Pink Pony can be so ruined by lousy service.",
+        "aspect_name": "place",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及place并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[place]并使用了[nice, convenient]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及place，是否存在描述能够间接推断出place正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中直接提及了[place]，因此不需要间接推断。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论place的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了place并使用了正面的词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "Anyways, if you're in the neighborhood to eat good food, I wouldn't waste my time trying to find something, rather go across the street to Tamari.",
+        "aspect_name": "food",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及food并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[good food]，这是一个强烈的正面描述。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及food，是否存在描述能够间接推断出food正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出food的情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论food的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提到了[good food]，这是一个强烈的正面描述。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "And really large portions.",
+        "aspect_name": "portions",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及portions并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[portions]并使用了[really large]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及portions，是否存在描述能够间接推断出portions正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论portions的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了portions，并使用了正面的词汇来形容。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "The food was delicious (I had a halibut special, my husband had steak), and the service was top-notch.",
+        "aspect_name": "steak",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及steak并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[steak]并使用了[delicious]等强烈的正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及steak，是否存在描述能够间接推断出steak正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论steak的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了steak并使用了强烈的正面词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "You can get an excellent meal at most of the many Indian restaurants on nearby Lexington Avenue for the cost of one the dainty dishes here.",
+        "aspect_name": "dishes",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dishes并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[dishes]并使用了[dainty]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dishes，是否存在描述能够间接推断出dishes正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dishes的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了dishes并使用了正面词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "I understand the area and folks you need not come here for the romantic, alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods, the tastes, the experiance.",
+        "aspect_name": "back waiters",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及back waiters并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[back waiters]但有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及back waiters，是否存在描述能够间接推断出back waiters正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论back waiters的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,评论中提到back waiters但没有描述直接或间接表现出了back waiters的情感。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "in an effort to increase turnover, the restaurant offers no desserts beyond the complimentary espresso cup filled with chocolate mousse.",
+        "aspect_name": "espresso cup filled with chocolate mousse",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及espresso cup filled with chocolate mousse并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提及[espresso cup filled with chocolate mousse]并使用了[complimentary]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及espresso cup filled with chocolate mousse，是否存在描述能够间接推断出espresso cup filled with chocolate mousse正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论espresso cup filled with chocolate mousse的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了[espresso cup filled with chocolate mousse]并使用了[complimentary]等正面词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "The restaurant is rather small but we were lucky to get a table quickly.",
+        "aspect_name": "table",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及table并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[table]并使用了[lucky]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及table，是否存在描述能够间接推断出table正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论table的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了table并使用了正面词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "Even though its good seafood, the prices are too high.",
+        "aspect_name": "seafood",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及seafood并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[seafood]并使用了[good]等正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及seafood，是否存在描述能够间接推断出seafood正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论seafood的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了seafood并使用了正面词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "Try the lobster teriyaki and the rose special roll.",
+        "aspect_name": "lobster teriyaki",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及lobster teriyaki并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[lobster teriyaki]并使用了[try]等强烈的正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及lobster teriyaki，是否存在描述能够间接推断出lobster teriyaki正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论lobster teriyaki的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了lobster teriyaki并使用了强烈的正面词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "You can get an excellent meal at most of the many Indian restaurants on nearby Lexington Avenue for the cost of one the dainty dishes here.",
+        "aspect_name": "meal",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及meal并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[excellent meal]并使用了[excellent]等强烈的正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及meal，是否存在描述能够间接推断出meal正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论meal的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了[excellent meal]并使用了[excellent]等强烈的正面词汇。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "The staff is no nonsense.",
+        "aspect_name": "staff",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及staff并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[staff]并使用了[no nonsense]等强烈的正面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及staff，是否存在描述能够间接推断出staff正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中直接提及了staff，因此不需要间接推断。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论staff的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,因为评论中直接提及了staff，并且使用了非常正面的词汇来描述。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "After 2 tries by the waiter to take it away (we hadn't even looked at it yet, we had full beers yet to drink), the manager approached and told us they needed the table for people with reservations.",
+        "aspect_name": "reservations",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及reservations并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[reservations]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及reservations，是否存在描述能够间接推断出reservations正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: positive,评论中提到reservations但没有描述直接或间接表现出了reservations的情感。\"}], \"pred_polarity\": \"positive\"}"
+    },
+    {
+        "comment": "On the other hand, if you are not fooled easily, you will find hundreds of restaurants that will give you service and ambiance that is on par with Alain Ducasse, and food that will outshine in presentaion, taste, choice, quality and quantity.",
+        "aspect_name": "food",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及food并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[food]并使用了[outshine]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及food，是否存在描述能够间接推断出food正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论food的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了食物并使用了负面词汇。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "If you are someone who appreciates simplicity, elegance, and wonderfully presented and tasting seafood and vegetables regardless of portion size, Kai is your place.",
+        "aspect_name": "portion size",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及portion size并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[portion size]但有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及portion size，是否存在描述能够间接推断出portion size正面或负面情感？\", \"cot_sub_answers\": \"A2: 存在,评论中提到[regardless of portion size]可以间接推断出负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论portion size的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,评论中提到[regardless of portion size]可以间接推断出负面情感。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "I had the cod with paella (spicy and very filling, I'm a big eater and could only eat half) while my boyfriend had the classic fish and chips (again, a big serving - at least 5 pieces of fish and a basketful of fries).",
+        "aspect_name": "fish and chips",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及fish and chips并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[fish and chips]但有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及fish and chips，是否存在描述能够间接推断出fish and chips正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论fish and chips的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,评论中提到[fish and chips]但没有描述直接或间接表现出了[fish and chips]的情感。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Plus, when our entrees were held up in the kitchen on a busy Saturday night, the owner sent over complimentary summer rolls to hold us over!",
+        "aspect_name": "entrees",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及entrees并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[entrees]并使用了[held up]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及entrees，是否存在描述能够间接推断出entrees正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论entrees的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了entrees的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "It costs $2 extra to turn a regular roll into an inside-out roll, but the roll more than triples in size, and that's not just from the rice.",
+        "aspect_name": "roll",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及roll并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[roll]并使用了[extra]和[triples in size]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及roll，是否存在描述能够间接推断出roll正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论roll的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了roll的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "The place was real empty but that was because this was the first Sunday they ever opened.",
+        "aspect_name": "place",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及place并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[place]并使用了[empty]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及place，是否存在描述能够间接推断出place正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论place的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了place的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "This place is incredibly tiny.",
+        "aspect_name": "place",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及place并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[place]并使用了[incredibly tiny]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及place，是否存在描述能够间接推断出place正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论place的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了place并使用了负面词汇。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "An excellent alternative to fast food joints and ordering in but, the food was slightly disappointing.",
+        "aspect_name": "food",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及food并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[food]并使用了[disappointing]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及food，是否存在描述能够间接推断出food正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论food的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了食物并使用了负面词汇。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "There was a long wait for a table outside, but it was a little too hot in the sun anyway so our insde table was very nice.",
+        "aspect_name": "wait",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及wait并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[wait]并使用了[long]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及wait，是否存在描述能够间接推断出wait正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论wait的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了等待的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Butter was melted, white wine warm, cheese oozing everywhere.",
+        "aspect_name": "Butter",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及Butter并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[Butter]并使用了[melted]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及Butter，是否存在描述能够间接推断出Butter正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论Butter的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了黄油的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "You should pass on the calamari.",
+        "aspect_name": "calamari",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及calamari并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[calamari]并使用了[pass on]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及calamari，是否存在描述能够间接推断出calamari正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论calamari的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了calamari并使用了负面词汇。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Not the greatest sushi place, but excellent for a $19.95 all you can eat.",
+        "aspect_name": "sushi place",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及sushi place并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[sushi place]并使用了[not the greatest]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及sushi place，是否存在描述能够间接推断出sushi place正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论sushi place的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了sushi place并使用了负面词汇。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "A narrow corridor leads to a tiny space where there are three tiny white tiled counters, a great deal of mess (stacks of bottles, cans) and a small counter holding 12-14 entrees.",
+        "aspect_name": "corridor",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及corridor并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[corridor]并使用了[narrow]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及corridor，是否存在描述能够间接推断出corridor正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论corridor的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了corridor的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "On the other hand, if you are not fooled easily, you will find hundreds of restaurants that will give you service and ambiance that is on par with Alain Ducasse, and food that will outshine in presentaion, taste, choice, quality and quantity.",
+        "aspect_name": "choice",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及choice并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[choice]并使用了[not fooled easily]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及choice，是否存在描述能够间接推断出choice正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论choice的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了choice的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "It may be a bit packed on weekends, but the vibe is good and it is the best French food you will find in the area.",
+        "aspect_name": "packed",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及packed并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[packed]并使用了[bit]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及packed，是否存在描述能够间接推断出packed正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论packed的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了packed的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "As we were sitting eating the subpar food the manager proceeded to berate a couple of his employees for putting out the wrong containers for condiments and explained to them how expensive these containers were.",
+        "aspect_name": "containers for condiments",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及containers for condiments并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[containers for condiments]但有强烈的负面词汇[subpar]。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及containers for condiments，是否存在描述能够间接推断出containers for condiments正面或负面情感？\", \"cot_sub_answers\": \"A2: 存在,评论中提到[wrong containers]和[expensive]可以间接推断出负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论containers for condiments的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,评论中直接和间接提及了[containers for condiments]的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "They might be all business at the counter when you give your order, but their food says I love you.",
+        "aspect_name": "counter",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及counter并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[counter]并使用了[all business]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及counter，是否存在描述能够间接推断出counter正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论counter的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了counter的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "The only possible drawback to this last point is that as of the date of this posting, the additional menu items are only written in Chinese.",
+        "aspect_name": "menu items",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及menu items并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[menu items]并使用了[drawback]和[only written in Chinese]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及menu items，是否存在描述能够间接推断出menu items正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论menu items的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了menu items的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "we did notice however, that some tables had what looked like pita instead of naan.",
+        "aspect_name": "naan",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及naan并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[naan]并使用了[what looked like pita]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及naan，是否存在描述能够间接推断出naan正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论naan的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了naan的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "We ordered some beef and noodle soup dishes from the Thai section of the menu but nothing we got was Thai.",
+        "aspect_name": "beef",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及beef并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[beef]并使用了[negative]词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及beef，是否存在描述能够间接推断出beef正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论beef的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了牛肉的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Overall A oh ya even though there is waiting it is deff worth it",
+        "aspect_name": "waiting",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及waiting并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[waiting]并使用了[deff worth it]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及waiting，是否存在描述能够间接推断出waiting正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,即使评论未直接提及，也没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论waiting的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接提及了等待的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "Our tiny table for two (dinner plates hung over edge) was right in the middle of one of the lanes of waiter traffic.",
+        "aspect_name": "waiter traffic",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及waiter traffic并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[waiter traffic]并使用了[negative]词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及waiter traffic，是否存在描述能够间接推断出waiter traffic正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论waiter traffic的情感极性是什么？\", \"cot_sub_answers\": \"A3: negative,因为评论中直接和间接提及了waiter traffic的负面描述。\"}], \"pred_polarity\": \"negative\"}"
+    },
+    {
+        "comment": "If the omakase is to showcase technique and variety, serving almost 40% of items BBQ-ed and a spicy tuna roll wrapped with not-so-fresh nori seems to be a rather limp performance.",
+        "aspect_name": "serving",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及serving并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[serving]，也没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及serving，是否存在描述能够间接推断出serving正面或负面情感？\", \"cot_sub_answers\": \"A2: 存在,评论中提到了[BBQ-ed]和[spicy tuna roll wrapped with not-so-fresh nori]，这些描述可以间接推断出serving的情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论serving的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中没有直接提及serving，但间接描述可以推断出serving的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The fillings may be unconventional but the dosa batter is definitely authentic and the combinations very tasty.",
+        "aspect_name": "fillings",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及fillings并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[fillings]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及fillings，是否存在描述能够间接推断出fillings正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到fillings但没有描述直接或间接表现出了fillings的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "For the location, the prices are very reasonable.",
+        "aspect_name": "location",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及location并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[location]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及location，是否存在描述能够间接推断出location正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到location但没有描述直接或间接表现出了location的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "(Always ask the bartender for the SEASONAL beer!!!",
+        "aspect_name": "bartender",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及bartender并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[bartender]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及bartender，是否存在描述能够间接推断出bartender正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论bartender的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到bartender但没有描述直接或间接表现出了bartender的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The portions are HUGE, so it might be good to order three things to split (rather than one appetizer and entree per person) for two people.",
+        "aspect_name": "entree",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及entree并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[entree]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及entree，是否存在描述能够间接推断出entree正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论entree的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到entree但没有描述直接或间接表现出了entree的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Normally that would be improper, however they were all delicious and my host did not complain.",
+        "aspect_name": "host",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及host并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[host]，也没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及host，是否存在描述能够间接推断出host正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论host的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到host但没有描述直接或间接表现出了host的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Aside from the Sea Urchin, the chef recommended an assortment of fish including Fatty Yellow Tail, Boton Shrimp, Blue Fin Torro (Fatty Tuna), Sea Eel, etc.",
+        "aspect_name": "Fatty Yellow Tail",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及Fatty Yellow Tail并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[Fatty Yellow Tail]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及Fatty Yellow Tail，是否存在描述能够间接推断出Fatty Yellow Tail正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论Fatty Yellow Tail的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到Fatty Yellow Tail但没有描述直接或间接表现出了Fatty Yellow Tail的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Instead of wasting your time here: SUPPORT RESTAURANTS THAT CARE ABOUT FOOD.",
+        "aspect_name": "FOOD",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及FOOD并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[FOOD]也没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及FOOD，是否存在描述能够间接推断出FOOD正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论FOOD的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到FOOD但没有描述直接或间接表现出了FOOD的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I didn't take a look at the rest menu, but the oysters were fantastic.",
+        "aspect_name": "menu",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及menu并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[menu]，也没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及menu，是否存在描述能够间接推断出menu正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论menu的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到menu但没有描述直接或间接表现出了menu的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Three courses - choices include excellent mussels, puff pastry goat cheese and salad with a delicious dressing, and a hanger steak au poivre that is out of this world.",
+        "aspect_name": "courses",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及courses并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[courses]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及courses，是否存在描述能够间接推断出courses正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到courses但没有描述直接或间接表现出了courses的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "We were disappointed with the pre-fixe menu of only 2 choices per course (other restaurants offer 3 choices) and ended up ordering a la carte.",
+        "aspect_name": "choices per course",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及choices per course并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[choices per course]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及choices per course，是否存在描述能够间接推断出choices per course正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论choices per course的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到choices per course但没有描述直接或间接表现出了choices per course的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "yourself a favor and have dinner here and see if you dont agree with me.",
+        "aspect_name": "dinner",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dinner并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[dinner]也没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dinner，是否存在描述能够间接推断出dinner正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dinner的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到dinner但没有描述直接或间接表现出了dinner的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "We've only eaten in the restaurant once, but we have ordered many times for dinner.",
+        "aspect_name": "dinner",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dinner并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[dinner]也没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dinner，是否存在描述能够间接推断出dinner正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dinner的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到dinner但没有描述直接或间接表现出了dinner的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The tables are crammed way too close, the menu is typical of any Italian restaurant, and the wine list is simply overpriced.",
+        "aspect_name": "menu",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及menu并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[menu]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及menu，是否存在描述能够间接推断出menu正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论menu的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到menu但没有描述直接或间接表现出了menu的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Stick to dimsum, not super overpriced noodles.",
+        "aspect_name": "noodles",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及noodles并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 是,评论中直接提到[noodles]并使用了[overpriced]等负面词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及noodles，是否存在描述能够间接推断出noodles正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论noodles的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到noodles但未直接或间接表达出正面或负面情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "It is far more popular as a bar than as a restaurant, with only a few tables and the waiter being the bartender, but we greatly enjoyed the unobtrusive atmosphere.",
+        "aspect_name": "bartender",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及bartender并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[bartender]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及bartender，是否存在描述能够间接推断出bartender正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论bartender的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到bartender但没有描述直接或间接表现出了bartender的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "My wife and I went to Orsay for Valentine's dinner.",
+        "aspect_name": "dinner",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dinner并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[dinner]也没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dinner，是否存在描述能够间接推断出dinner正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dinner的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到dinner但没有描述直接或间接表现出了dinner的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I always get the Shabu-Shabu dinner and the beef is always fresh.",
+        "aspect_name": "Shabu-Shabu dinner",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及Shabu-Shabu dinner并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[Shabu-Shabu dinner]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及Shabu-Shabu dinner，是否存在描述能够间接推断出Shabu-Shabu dinner正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论Shabu-Shabu dinner的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到Shabu-Shabu dinner但没有描述直接或间接表现出了Shabu-Shabu dinner的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "It took them 25 minutes to bring our appetizer.",
+        "aspect_name": "appetizer",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及appetizer并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[appetizer]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及appetizer，是否存在描述能够间接推断出appetizer正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论appetizer的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到appetizer但没有描述直接或间接表现出了appetizer的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "It costs $2 extra to turn a regular roll into an inside-out roll, but the roll more than triples in size, and that's not just from the rice.",
+        "aspect_name": "rice",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及rice并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[rice]也没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及rice，是否存在描述能够间接推断出rice正面或负面情感？\", \"cot_sub_answers\": \"A2: 存在,评论中提到[more than triples in size]可以间接推断出[rice]的正面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论rice的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到[rice]但情感描述不强烈。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "It's super-trendy and there's always someone to take that empty seat, so it seems that customer service has been deemed not of the essence.",
+        "aspect_name": "seat",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及seat并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[seat]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及seat，是否存在描述能够间接推断出seat正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到seat但没有描述直接或间接表现出了seat的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Two people in our party felt like something else, and Volare immediately obliged with two great dishes that were not in their regular menu.",
+        "aspect_name": "menu",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及menu并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[menu]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及menu，是否存在描述能够间接推断出menu正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到menu但没有描述直接或间接表现出了menu的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "this is the best secret place in midtown', I heard that from the bartender, after having brilliant food ( try steak with portobello mushrooms) and drinks on the bar last Tuesday.",
+        "aspect_name": "bar",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及bar并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[bar]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及bar，是否存在描述能够间接推断出bar正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论bar的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到bar但没有描述直接或间接表现出了bar的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I've waited over one hour for food.",
+        "aspect_name": "food",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及food并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[food]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及food，是否存在描述能够间接推断出food正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到food但没有描述直接或间接表现出了food的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I went there in late afternoon for some bite size food and refleshment with my date.",
+        "aspect_name": "food",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及food并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[food]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及food，是否存在描述能够间接推断出food正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到food但没有描述直接或间接表现出了food的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I had the cod with paella (spicy and very filling, I'm a big eater and could only eat half) while my boyfriend had the classic fish and chips (again, a big serving - at least 5 pieces of fish and a basketful of fries).",
+        "aspect_name": "fish",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及fish并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[fish]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及fish，是否存在描述能够间接推断出fish正面或负面情感？\", \"cot_sub_answers\": \"A2: 存在,评论中提到[经典鱼和薯条]和[至少5片鱼和满满一篮子薯条]，这些描述可以间接推断出正面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论fish的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到fish但没有直接或间接表现出强烈的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "they were able to squeeze me in at 6 after i called the night before my anniversary for a friday night reservation and told me they'd treat us well for the occasion.",
+        "aspect_name": "reservation",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及reservation并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[reservation]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及reservation，是否存在描述能够间接推断出reservation正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到reservation但没有描述直接或间接表现出了reservation的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I would definitely go back for a very special occasion, but not for regular fine dining.",
+        "aspect_name": "dining",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dining并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[dining]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dining，是否存在描述能够间接推断出dining正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dining的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到dining但没有描述直接或间接表现出了dining的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "We also ordered two hot dogs thinking they would be pretty good since there is a whole section on the menu devoted to them.",
+        "aspect_name": "hot dogs",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及hot dogs并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[hot dogs]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及hot dogs，是否存在描述能够间接推断出hot dogs正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论hot dogs的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到hot dogs但没有描述直接或间接表现出了hot dogs的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I had the cod with paella (spicy and very filling, I'm a big eater and could only eat half) while my boyfriend had the classic fish and chips (again, a big serving - at least 5 pieces of fish and a basketful of fries).",
+        "aspect_name": "fries",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及fries并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[fries]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及fries，是否存在描述能够间接推断出fries正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论fries的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到fries但没有描述直接或间接表现出了fries的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Warm, comfortable surroundings, nice appointments (witness the etched glass and brickwork separating the dining rooms).",
+        "aspect_name": "dining rooms",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dining rooms并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[dining rooms]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dining rooms，是否存在描述能够间接推断出dining rooms正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dining rooms的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到dining rooms但没有描述直接或间接表现出了dining rooms的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The food is uniformly exceptional, with a very capable kitchen which will proudly whip up whatever you feel like eating, whether it's on the menu or not.",
+        "aspect_name": "menu",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及menu并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[menu]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及menu，是否存在描述能够间接推断出menu正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到menu但没有描述直接或间接表现出了menu的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The selection changes frequently but the basic dishes are always available.",
+        "aspect_name": "basic dishes",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及basic dishes并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[basic dishes]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及basic dishes，是否存在描述能够间接推断出basic dishes正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论basic dishes的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到basic dishes但没有描述直接或间接表现出了basic dishes的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Since my first dinner I have had the chance to have brunch at Orsay 3x.",
+        "aspect_name": "dinner",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dinner并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[dinner]也没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dinner，是否存在描述能够间接推断出dinner正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dinner的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到dinner但没有描述直接或间接表现出了dinner的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "This restaurant used to be our regular Thursday night dinner location.",
+        "aspect_name": "dinner location",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dinner location并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[dinner location]也没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dinner location，是否存在描述能够间接推断出dinner location正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dinner location的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到dinner location但没有描述直接或间接表现出了dinner location的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "For dinner I had the chicken tikka-masala and some garlic naan.",
+        "aspect_name": "dinner",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及dinner并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[dinner]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及dinner，是否存在描述能够间接推断出dinner正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论dinner的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到dinner但没有描述直接或间接表现出了dinner的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The staff was too busy ordering sushi for dinner and then laying it out to eat on the bar to even bring me my check.",
+        "aspect_name": "check",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及check并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[check]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及check，是否存在描述能够间接推断出check正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到check但没有描述直接或间接表现出了check的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The music does get a little loud at times, but it just made me want to lean closer to my beautiful wife, and as I did, I got a whiff of corriander.",
+        "aspect_name": "corriander",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及corriander并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[corriander]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及corriander，是否存在描述能够间接推断出corriander正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论corriander的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到corriander但没有描述直接或间接表现出了corriander的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The space is a bit too small for live music, so on  jazz nights, it can be loud and cramped.",
+        "aspect_name": "live music",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及live music并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[live music]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及live music，是否存在描述能够间接推断出live music正面或负面情感？\", \"cot_sub_answers\": \"A2: 存在,评论中提到了[live music]的负面描述，如[cramped]和[loud]。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论live music的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到[live music]的负面描述，但整体上没有强烈的情感词汇。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Its a great place for a casual date or to entertain clients for lunch.",
+        "aspect_name": "lunch",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及lunch并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[lunch]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及lunch，是否存在描述能够间接推断出lunch正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论lunch的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到lunch但没有描述直接或间接表现出了lunch的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "I stumbled upon this second floor walk-up two Fridays ago when I was with two friends in town from L.A. Being serious sushi lovers, we sat at the sushi bar to be closer to the action.",
+        "aspect_name": "sushi",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及sushi并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[sushi]，也没有使用强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及sushi，是否存在描述能够间接推断出sushi正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论sushi的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到sushi但没有描述直接或间接表现出了sushi的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "This wasn't the expected menu comprised only of pad thai and tom yum soup, but I thought that was what made the place so special.",
+        "aspect_name": "pad thai",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及pad thai并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[pad thai]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及pad thai，是否存在描述能够间接推断出pad thai正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论pad thai的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到pad thai但没有描述直接或间接表现出了pad thai的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "And at the conclusion of this culinary nightmare the check was given to our table by knocking over a glass of water.",
+        "aspect_name": "check",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及check并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[check]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及check，是否存在描述能够间接推断出check正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到check但没有描述直接或间接表现出了check的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "In terms of the food itself -- nothing special, we limited ourselves to several appetizers.",
+        "aspect_name": "appetizers",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及appetizers并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[appetizers]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及appetizers，是否存在描述能够间接推断出appetizers正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论appetizers的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到appetizers但没有描述直接或间接表现出了appetizers的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Ive been here so many times the waiters know my name.",
+        "aspect_name": "waiters",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及waiters并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[waiters]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及waiters，是否存在描述能够间接推断出waiters正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论waiters的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到waiters但没有描述直接或间接表现出了waiters的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "The food came out wrong, the waiter was no where to be found and the wine showed up at the end of the meal.",
+        "aspect_name": "meal",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及meal并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[meal]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及meal，是否存在描述能够间接推断出meal正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到meal但没有描述直接或间接表现出了meal的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    },
+    {
+        "comment": "Get your food to go, find a bench, and kick back with a plate of dumplings.",
+        "aspect_name": "food",
+        "result": "{\"cot_reasons\": [{\"cot_sub_questions\": \"Q1: 评论中是否直接提及food并使用了强烈的正面或负面情感词汇？\", \"cot_sub_answers\": \"A1: 没有,评论中没有直接提及[food]但没有强烈的情感词汇。\"}, {\"cot_sub_questions\": \"Q2: 即使评论未直接提及food，是否存在描述能够间接推断出food正面或负面情感？\", \"cot_sub_answers\": \"A2: 不存在,评论中没有其他描述可以间接推断出正面或负面情感。\"}, {\"cot_sub_questions\": \"Q3: 综合前两个问题的回答，你认为针对餐厅评论owners的情感极性是什么？\", \"cot_sub_answers\": \"A3: neutral,评论中提到food但没有描述直接或间接表现出了food的情感。\"}], \"pred_polarity\": \"neutral\"}"
+    }
+]

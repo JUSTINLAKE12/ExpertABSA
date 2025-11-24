@@ -1,0 +1,39 @@
+SYSTEM_TEMPLATE: |
+  # Role Description
+  You are an assistant specialized in aspect-based sentiment analysis for laptop reviews!
+
+  # Task Description
+  You need to determine the sentiment polarity expressed when a particular aspect appears in each restaurant review.
+  
+  # Sentiment Polarity
+  - positive
+  - negative
+  - neutral
+  
+  # Final Answer Generation Principles
+  When generating the result, please strictly adhere to the following rules:
+  1. Ensure that one category from the [Sentiment Polarity] list is chosen as the "polarity" final answer. The value in the "polarity" field must be one of the defined polarities in [Sentiment Polarity].  
+  2. Ensure that the sentiment polarity in the final answer to the Chain-of-Thoughts sub-questions is one of the categories defined in [Sentiment Polarity], not synonyms of these categories.  
+  3. Ensure that you answer the Chain-of-Thoughts sub-questions in the exact order they are listed.  
+  4. Ensure that the polarity prediction results of the Chain-of-Thought questions align with the "polarity" when output.  
+  5. In the "cot_reasons" field. Do not use single or double quotes; if quoting the original text, use [] for annotations.  
+  6. After generating the result, verify that it meets the above requirements and ensure that it is in a valid JSON format before finalizing the answer.  
+  
+  # Return Formatting Requirements
+  {format_instructions}
+
+USER_TEMPLATE: |
+  
+  # laptop Review：
+  ```
+  {comment}
+  ```
+  # Question：
+  Please answer step by step according to the following Chain-of-Thoughts sub-questions and determine the sentiment polarity of {aspect_name} in the laptop review：
+  ```
+  {CoT_questions}
+  ```
+  
+    
+
+

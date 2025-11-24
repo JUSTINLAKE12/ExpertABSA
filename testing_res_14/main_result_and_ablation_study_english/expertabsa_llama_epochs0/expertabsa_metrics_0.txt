@@ -1,0 +1,7 @@
+{'macro_f1_score': 0.4736842105263158, 'accuracy': 0.9}
+
+- Q1: Does the comment directly mention {aspect_name} and use strong positive or negative sentiment words?
+- Q2: Even if the comment does not directly mention {aspect_name}, is there a description that can indirectly infer positive or negative sentiment about {aspect_name}?
+- Q3: Does the comment provide a contextually positive or negative description of {aspect_name}?
+- Q4: Does the comment only provide a neutral description of {aspect_name}, without any clear positive or negative sentiment?
+- Q5: Based on the answers to the previous four questions, what do you think is the overall sentiment polarity towards {aspect_name} in the restaurant review?
