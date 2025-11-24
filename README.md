@@ -1,6 +1,6 @@
-# KBS (Knowledge-Based System) for Aspect-Based Sentiment Analysis
+# ExpertABSA for Aspect-based Sentiment Analysis
 
-This repository contains the implementation of a knowledge-based system for Aspect-Based Sentiment Analysis (ABSA), using chain-of-thought reasoning and multi-agent framework to optimize sentiment polarity prediction.
+This repository contains the implementation of ExpertABSA for Aspect-Based Sentiment Analysis (ABSA), using chain-of-thought reasoning and multi-agent framework to optimize sentiment polarity prediction.
 
 ## Environment Setup
 
