@@ -94,7 +94,6 @@ class PolarityAgent:
         chain = (
                 {
                     "comment": itemgetter("comment") | RunnableLambda(strip_whitespaces),
-                    # 预处理，去除新闻原文开头和结尾多余的空白
                     "aspect_name": itemgetter("aspect_name"),
                     "product_type": itemgetter("product_type")
                 }
@@ -197,7 +196,6 @@ class PolarityAgentBench:
         chain = (
                 {
                     "comment": itemgetter("comment") | RunnableLambda(strip_whitespaces),
-                    # 预处理，去除新闻原文开头和结尾多余的空白
                     "aspect_name": itemgetter("aspect_name")
                 }
                 | self.chat_prompt_assemble()
@@ -554,7 +552,6 @@ class FinalPolarityAgent:
         chain = (
                 {
                     "comment": itemgetter("comment") | RunnableLambda(strip_whitespaces),
-                    # 预处理，去除新闻原文开头和结尾多余的空白
                     "aspect_name": itemgetter("aspect_name"),
                     "product_type": itemgetter("product_type")
                 }
@@ -673,7 +670,6 @@ class FinalPolarityAgentBench:
         chain = (
                 {
                     "comment": itemgetter("comment") | RunnableLambda(strip_whitespaces),
-                    # 预处理，去除新闻原文开头和结尾多余的空白
                     "aspect_name": itemgetter("aspect_name")
                 }
                 | self.chat_prompt_assemble()
@@ -760,7 +756,6 @@ class FinalPolarityAgentRaw:
         chain = (
                 {
                     "comment": itemgetter("comment") | RunnableLambda(strip_whitespaces),
-                    # 预处理，去除新闻原文开头和结尾多余的空白
                     "aspect_name": itemgetter("aspect_name")
                 }
                 | self.chat_prompt_assemble()
