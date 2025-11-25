@@ -54,7 +54,7 @@ Run `Experiment2_error_corrections.py` with the required inputs to implement the
 - `prompt_templates_*/`: Directory containing prompt templates for different datasets
 - `RES14/`: Restaurant dataset files
 - `LAP14/`: Laptop dataset files
-- `commodity_dataset/`: Commodity dataset files
+- `commodity_dataset/`: Comm25 dataset files
 
 
 
