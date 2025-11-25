@@ -6,12 +6,13 @@ This repository contains the implementation of ExpertABSA for Aspect-Based Senti
 
 1. Python 3.10
 2. Install dependencies using: `pip install -r requirements.txt`
-3. Set up environment variables in `.env` file:
+3. copy params in `.env.template` to `.env` file
    - `MODEL_NAME`: Your LLM model name
    - `BASE_URL`: API endpoint for your LLM
    - `API_KEY`: Your API key
    - `EPOCHS`: Number of training epochs (default: 8)
    - `EXPERIMENT_PATH`: Path for experiment outputs (default: 'result')
+4. Set up environment variables in `.env` file
 
 ### To run training stage I of ExpertABSA:
 
