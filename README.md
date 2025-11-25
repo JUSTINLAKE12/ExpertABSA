@@ -18,13 +18,13 @@ This repository contains the implementation of ExpertABSA for Aspect-Based Senti
 Before running any experiments, ensure your environment variables are properly set in the `.env` file.
 
 #### For RES14 (Restaurant) dataset:
-- Run `Experiment_Res_ENG.py` to implement ExpertABSA two-stage training with English prompts.
+- Run `Experiment_Res_ENG.py` to implement ExpertABSA ExpertABSA stage I training  process.
 
 #### For LAP14 (Laptop) dataset:
-- Run `Experiment_lap_ENG.py` to implement ExpertABSA two-stage training with English prompts.
+- Run `Experiment_lap_ENG.py` to implement ExpertABSA ExpertABSA stage I training  process.
 
 #### For commodity dataset:
-- Run `commodity_experiment.py` to implement ExpertABSA for commodity sentiment analysis.
+- Run `commodity_experiment.py` to implement ExpertABSA ExpertABSA stage I training  process.
 
 The training process involves three main agents working iteratively:
 1. **Polarity Agent**: Predicts sentiment polarity using chain-of-thought questions
